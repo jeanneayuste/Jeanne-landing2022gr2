@@ -1,0 +1,211 @@
+/* Write some CSS below */
+body {
+	font-family: "Jost", sans-serif;
+	font-size: 18px;
+	letter-spacing:2pw;
+	color: rgb(30, 30, 30);
+	background-color: #FFF5EE;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2, h4 {
+	font-family: Bebas Neue;
+	font-size: 50px;
+}
+
+
+
+.banner {
+	text-align: center;
+	background-image: url(images/sablés.jpg);
+	background-color: rgb(70,70,70);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	padding: 180px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	border-bottom: 5px dashed white;
+
+}
+
+.banner h1 {
+	font-family: "Bebas Neue";
+	font-size: 100px;
+	letter-spacing: 2.5px;
+}
+.banner p {
+	font-family: "Jost", sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+.btn-yellow {
+	color: white;
+	text-shadow: none	;
+	background-color: #589FA8;
+	padding: 15px 45px;
+	margin-top: 50px;
+	border-radius: 50px;
+}
+
+.btn-yellow:hover {
+	opacity: 0.8;
+	background-color: #A88468;
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50px;
+	box-shadow: 1px 2px 50px #F5CEB0;
+}
+
+.card-white img:hover {
+	opacity: 0.7;
+}
+
+.imglink hover {
+	opacity: 0.8;
+}
+
+.card-white {
+	background-color: #A88468;
+	color: white;
+	text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1) ;
+	width: 220px;
+	padding: 24px;
+	text-align: center;
+	margin: 8px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.introduction { 
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+ }
+
+
+
+.cutepies img {
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+footer {
+	text-align: center;
+	background-color: #F5CEB0;
+	padding: 16px;
+	border-top: 5px dashed white;
+}
+
+footer img {
+	width: 50px;
+	height: 50px;
+}
+
+.finals {
+	font-size: 12px;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.comment {
+	background-image: url(images/insta.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: rgb(70,70,70);
+	background-blend-mode: overlay;
+	border-top: 5px dashed white;
+	border-bottom: 5px dashed white;
+
+}
+
+.comment p {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 25px;
+}
+
+.titlesection {
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+.biographie img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 5px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.biographie {
+	width: 400;
+	height: 400;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+	grid-gap: 50px;
+}
+
+.biographie p {
+	text-align: justify;
+	padding-top: 20px ;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #A88468;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+.spacer
+{
+    font-size: 0; 
+    height: 10px;
+    line-height: 0;
+}
